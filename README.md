@@ -2,6 +2,8 @@
 
 ## Overview
 ### The goal of this challenge is to develop a deep learning model that identifies the top applicants for funding from Alphabet Soup Charity, based on the applicant’s highest likelihood of success. By processing the organizations historical data and using the features in the dataset to create a binary classifier, the model can predict whether applicants will be successful if funded by the Alphabet Soup Charity.
+
+
 ## Results
 
 ### Data Preprocessing
@@ -27,12 +29,14 @@
 #### Feature variable: 
 * NAME was brought back into the optomized model.
 
+
 ### Compiling, Training, and Evaluating the Model
 *	Total Hidden Layers (3):
      *   Layer 1: 100 neurons, relu activation
      *   Layer 2: 30 neurons, tanh activation
      *   Layer 3: 10 neurons, sigmoid activation
 *	Output Layer: 1 neuron, Sigmoid activation
+
 
 ### Performance
 #### Test Accuracy: 
