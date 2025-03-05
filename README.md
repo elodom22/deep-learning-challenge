@@ -6,7 +6,7 @@
 
 ## Results
 
-### Data Preprocessing
+## Data Preprocessing
 
 #### Target Variable: 
 * IS_SUCCESSFUL (1 = successful, 0 = unsuccessful).
@@ -30,7 +30,7 @@
 * NAME was brought back into the optomized model.
 
 
-### Compiling, Training, and Evaluating the Model
+## Compiling, Training, and Evaluating the Model
 *	Total Hidden Layers (3):
      *   Layer 1: 100 neurons, relu activation
      *   Layer 2: 30 neurons, tanh activation
@@ -38,7 +38,7 @@
 *	Output Layer: 1 neuron, Sigmoid activation
 
 
-### Performance
+## Performance
 #### Test Accuracy: 
 * Accuracy improved from 72.5% to 79.6% after model optimization
 
