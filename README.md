@@ -10,8 +10,8 @@
 * IS_SUCCESSFUL (1 = successful, 0 = unsuccessful).
 
 #### Feature variable(s):
-*NAME
-*APPLICATION_TYPE
+* NAME
+* APPLICATION_TYPE
 * AFFILIATION
 * CLASSIFICATION
 * USE_CASE
