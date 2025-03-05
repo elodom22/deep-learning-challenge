@@ -41,6 +41,7 @@
 #### Optimization Improvements: 
 ##### Initially both EIN and Name were dropped from the model. However, it was determined that excluding Names with only one appearance improved model performance considerably. Adding neurons (100, 30, 10) to the hidden layers, changing and adding an additional hidden layer type (relu > tanh > sigmoid) exhibited marked improvement from the original model.
 
+
 ## Summary and Recommendation
 #### By optimizing the model, we achieved an accuracy exceeding 79%, meaning that 79% of the test data points were correctly classified. This indicates that an applicant has nearly an 80% probability of success if the following criteria are met:
 *	The applicant's name appears more than five times (indicating they have applied more than once).
@@ -48,5 +49,5 @@
 *	The application's classification falls under one of the following values: C1000, C1200, C2000, C2100, or C3000.
 
 ### Alternative Approach: 
-#### While this model demonstrated high accuracy and effectiveness, another viable option would be the Random Forest model, which is also well-suited for classification tasks. With the Random Forest model, we achieved an accuracy close to 78%.
+#### While this model demonstrated high accuracy and effectiveness, another viable option would be the Random Forest model, which is also well-suited for classification tasks.
 
