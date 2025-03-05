@@ -29,9 +29,9 @@
 
 ### Compiling, Training, and Evaluating the Model
 *	Total Hidden Layers (3):
-   * Layer 1: 100 neurons, relu activation
-   * Layer 2: 30 neurons, tanh activation
-   * Layer 3: 10 neurons, sigmoid activation
+     *   Layer 1: 100 neurons, relu activation
+     *   Layer 2: 30 neurons, tanh activation
+     *   Layer 3: 10 neurons, sigmoid activation
 *	Output Layer: 1 neuron, Sigmoid activation
 
 ### Performance
