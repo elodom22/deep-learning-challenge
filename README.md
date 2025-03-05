@@ -5,19 +5,18 @@
 ## Results
 
 ### Data Preprocessing
-#### Target Variable:
-* IS_SUCCESSFUL (1 = successful, 0 = unsuccessful).
+#### Target Variable: IS_SUCCESSFUL (1 = successful, 0 = unsuccessful).
 
 #### Feature variable(s):
-NAME/
-APPLICATION_TYPE/
-AFFILIATION/
-CLASSIFICATION/
-USE_CASE/
-ORGANIZATION/
-STATUS/
-INCOME_AMT/
-SPECIAL_CONSIDERATIONS/
+NAME\
+APPLICATION_TYPE\
+AFFILIATION\
+CLASSIFICATION\
+USE_CASE\
+ORGANIZATION\
+STATUS\
+INCOME_AMT\
+SPECIAL_CONSIDERATIONS\
 ASK_AMT
 #### Variable(s) removed from the input data: 
 *EIN and Name 
