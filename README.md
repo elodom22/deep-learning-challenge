@@ -38,8 +38,8 @@
 #### Test Accuracy: 
 * Accuracy improved from 72.5% to 79.6% after model optimization
 
-### Optimization Improvements: 
-#### Initially both EIN and Name were dropped from the model. However, it was determined that excluding Names with only one appearance improved model performance considerably. Adding neurons (100, 30, 10) to the hidden layers, changing and adding an additional hidden layer type (relu > tanh > sigmoid) exhibited marked improvement from the original model.
+#### Optimization Improvements: 
+##### Initially both EIN and Name were dropped from the model. However, it was determined that excluding Names with only one appearance improved model performance considerably. Adding neurons (100, 30, 10) to the hidden layers, changing and adding an additional hidden layer type (relu > tanh > sigmoid) exhibited marked improvement from the original model.
 
 ## Summary and Recommendation
 #### By optimizing the model, we achieved an accuracy exceeding 79%, meaning that 79% of the test data points were correctly classified. This indicates that an applicant has nearly an 80% probability of success if the following criteria are met:
